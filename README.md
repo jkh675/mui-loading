@@ -10,7 +10,7 @@ A simple library for creating the loading ui with mui
 
 ## setup
 place this to in to your react root
-```
+```typescript
 ...
 <LoadingProvider>
     <App /> //<-- replace this with your React component
@@ -20,7 +20,7 @@ place this to in to your react root
 
 ## options 
 pass in to startLoading() function
-```
+```typescript
 export interface StartLoadingOption {
     /// allow user can click out
     manuallyClose?: boolean;

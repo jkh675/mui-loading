@@ -23,6 +23,16 @@
         "react",
         "material-ui"
     ],
+    "repository": {
+        "directory": "https://github.com/jkh675/mui-loading.git",
+        "type": "git",
+        "url": "https://github.com/jkh675/mui-loading"
+    },
+    "bugs": {
+        "url": "https://github.com/jkh675/mui-loading/issues",
+        "email": "rluo2018@gmail.com"
+    },
+    "homepage": "https://github.com/jkh675/mui-loading",
     "author": "jkh675",
     "license": "MIT",
     "devDependencies": {

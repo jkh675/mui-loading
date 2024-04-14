@@ -1,4 +1,4 @@
-import useLoading from "../library/hooks/useLoading";
+import { useLoading } from "../library/hooks";
 
 export default function () {
     const loading = useLoading();

@@ -37,7 +37,7 @@ export function LoadingProvider({ children }: { children: ReactNode }) {
         <>
             <Backdrop
                 sx={{
-                    zIndex: (theme) => theme.zIndex.drawer + 1,
+                    zIndex: (theme) => theme.zIndex.modal + 10,
                 }}
                 open={contextValue.open}
                 onClick={options.manuallyClose ? stopLoading : () => {}}

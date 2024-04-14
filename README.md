@@ -44,7 +44,7 @@ export interface StartLoadingOption {
 
 ## usage
 #### indeterminate cirlce progress
-```
+```typescript
 const loading = useLoading();
 ...
 <button
@@ -58,7 +58,7 @@ const loading = useLoading();
 ...
 ```
 #### determinate cirlce progress
-```
+```typescript
 const loading = useLoading();
 ...
 <button
@@ -86,7 +86,7 @@ const loading = useLoading();
 ...
 ```
 #### indeterminate linear progress
-```
+```typescript
 const loading = useLoading();
 ...
 <button
@@ -101,7 +101,7 @@ const loading = useLoading();
 </button>
 ```
 #### determinate linear progress
-```
+```typescript
 const loading = useLoading();
 ...
 <button
